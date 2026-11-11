@@ -1,4 +1,14 @@
-# Deploy e Inicialização de Contratos de Identidade Descentralizada 
+# Deploy e Inicialização de Contratos de Identidade Descentralizada
+
+> **Sobre este repositório**
+>
+> Este repositório é uma cópia (fork) do projeto original de Jeffson Sousa, mantida em uma versão fixa: [jeffsonsousa/contracts-indy-besu](https://github.com/jeffsonsousa/contracts-indy-besu).
+>
+> Ele foi criado com o objetivo de **fixar a versão dos contratos utilizada no meu TCC**, protegendo o ambiente de possíveis alterações futuras no repositório original que poderiam quebrar a configuração do ambiente do TCC. Nenhuma funcionalidade nova foi proposta aqui; todo o crédito pelo código dos contratos e pela documentação abaixo pertence ao autor original.
+>
+> A documentação a seguir é mantida a partir do README original, por ser a referência de uso dos contratos.
+
+---
 
 Este projeto contém uma arquitetura completa baseada em contratos inteligentes para gerenciar identidades descentralizadas (DIDs), revogação de credenciais, registros de esquema e controle de acesso. A implantação é feita via Hardhat com suporte ao Ignition, permitindo deploy modular e inicialização automatizada.
 
